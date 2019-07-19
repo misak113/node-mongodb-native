@@ -20,7 +20,8 @@ describe('Retryable Reads', function() {
       spec.description.match(/aggregate/i) ||
       spec.description.match(/countDocuments/i) ||
       spec.description.match(/listIndexes/i) ||
-      spec.description.match(/estimatedDocumentCount/i)
+      spec.description.match(/estimatedDocumentCount/i) ||
+      spec.description.match(/count/i)
     );
   });
 });
